@@ -5,7 +5,7 @@ from cryptography.fernet import Fernet
 start = time.time()
 key = Fernet.generate_key()
 f = Fernet(key)
-time.sleep(1)
+
 
 class passwordmanager:
   def __init__(self, username, password):
